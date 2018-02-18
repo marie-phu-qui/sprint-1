@@ -5,9 +5,9 @@ Let's use the image of a computer terminal being its own geographic planet to ex
 
 cd ~ : is the one you use to go (often go back) to the basis. If you imagine that you are in a maze game it will take you back to the start/home.
 
-cd <directory> : takes you to a country(directory) if the conditions of access are respected (to use it you need to be able to see it on the direct map -see <ls>)
+cd "directory" : takes you to a country(directory) if the conditions of access are respected (to use it you need to be able to see it on the direct map -see "ls")
 
-pwd : tells you where you are. If you think of you computer as a world, your folders (directories) are settlements and files cities, typing <pwd> will print out your position in your computer world
+pwd : tells you where you are. If you think of you computer as a world, your folders (directories) are settlements and files cities, typing "pwd" will print out your position in your computer world
 
 ls : gives you a written map at a certain focal of your surroundings. If you are at a global world view you'll only see continents (main folders). If you are at the continent view, you'll see the contries but not the other continents...
 ls -al : gives you a more developped view of the former map. You'll get the same map starting at the same base focal, but you'll get to go through all the hidden cities(files) and countries(directories) you may have and through all the zooms possible.
@@ -16,9 +16,9 @@ mkdir : creates a new empty folder (directory) where you are. As if you would se
 
 touch : create a new empty file (city) where you are. As if you would implant a new town (that can be filled with info but not extended to contain other file).
 
-less <file> : shows you the inside of your city(file). With this command you can stroll (scroll) to get a good impression of your city(file) and use the space key to see it displayed by districts (pages). Type the letter "q" to exit the city(file).
+less "file" : shows you the inside of your city(file). With this command you can stroll (scroll) to get a good impression of your city(file) and use the space key to see it displayed by districts (pages). Type the letter "q" to exit the city(file).
 
-cp <file> <directory> : duplicates your city(file) in another country (directory). Be careful not to have a city(file) with the same name in your country (directory) of destination as this command will change it to the exact same you are copying.
+cp "file" "directory" : duplicates your city(file) in another country (directory). Be careful not to have a city(file) with the same name in your country (directory) of destination as this command will change it to the exact same you are copying.
 
 rm : removes your file/city.
 rm -rf : removes your settlement/folder even if it is filled.
